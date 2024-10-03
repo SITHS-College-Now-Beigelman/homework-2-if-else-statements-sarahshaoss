@@ -2,9 +2,9 @@
 //10/01/2024
 //Homework 2 Part 2
 
-#include <iostream>
+#include <iostream> //adds library
 
-using namespace std;
+using namespace std; //shortcut
 
 int main() {
   double judge1; //creates a variable for judge 1's data
