@@ -60,7 +60,7 @@ int main() {
     
   cout << "Final score: "<< ((judge1 + judge2 + judge3 + judge4 + judge5 + judge6) - max - min)/4; //outputs the final score by adding all the scores and subtracting the max and min scores and dividing by 4
 
-return 0; //returns code to 0
+return 0; //ends program
   /*     What is Judge 1's score?
     > 1
     What is Judge 2's score?
