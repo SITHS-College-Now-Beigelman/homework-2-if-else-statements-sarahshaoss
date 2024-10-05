@@ -30,26 +30,26 @@ int main() {
   cin >> judge6; //asks for judge 6's score and stores it in judge6
 
   //finding maximum of the numbers
-  if (judge1 > judge2 && judge1 > judge3 && judge1 > judge4 && judge1 > 5 && judge1 > judge6) //if judge 1 is the max, it should be greater than the value of the other judge's scores
+  if (judge1 > judge2 && judge1 > judge3 && judge1 > judge4 && judge1 > judge5 && judge1 > judge6) //if judge 1 is the max, it should be greater than the value of the other judge's scores
     max = judge1; //changes the value of max to judge1
-  else if (judge2 > judge1 && judge2 > judge3 && judge2 > judge4 && judge2 > 5 && judge2 > judge6) //if judge 2 is the max
+  else if (judge2 > judge1 && judge2 > judge3 && judge2 > judge4 && judge2 > judge5 && judge2 > judge6) //if judge 2 is the max
     max = judge2; //changes the value of max to judge2
-  else if (judge3 > judge1 && judge3 > judge2 && judge3 > judge4 && judge3 > 5 && judge3 > judge6) //if judge 3 is the max
+  else if (judge3 > judge1 && judge3 > judge2 && judge3 > judge4 && judge3 > judge5 && judge3 > judge6) //if judge 3 is the max
     max = judge3; //changes the value of max to judge3
-  else if (judge4 > judge1 && judge4 > judge2 && judge4 > judge3 && judge4 > 5 && judge4 > judge6) //if judge 4 is the max
+  else if (judge4 > judge1 && judge4 > judge2 && judge4 > judge3 && judge4 > judge5 && judge4 > judge6) //if judge 4 is the max
     max = judge4; //changes the value of max to judge4
-  else if (judge5 > judge1 && judge5 > judge2 && judge5 > judge3 && judge5 > 4 && judge5 > judge6) //if judge 5 is the max
+  else if (judge5 > judge1 && judge5 > judge2 && judge5 > judge3 && judge5 > judge4 && judge5 > judge6) //if judge 5 is the max
     max = judge5; //changes the value of max to judge5
-  else if (judge6 > judge1 && judge6 > judge2 && judge6 > judge3 && judge6 > 4 && judge6 > judge5) //if judge 6 is the max
+  else if (judge6 > judge1 && judge6 > judge2 && judge6 > judge3 && judge6 > judge4 && judge6 > judge5) //if judge 6 is the max
     max = judge6; //changes the value of max to judge6
 
 
 //finding minimum of the numbers
   if (judge1 < judge2 && judge1 < judge3 && judge1 < judge4 && judge1 < judge5 && judge1 < judge6) //if judge 1 is the min, it should be less than the value of the other judge's scores
     min = judge1; //changes the value of min to judge1
-  else if (judge2 < judge1 && judge2 < judge3 && judge2 < judge4 && judge2 < 5 && judge2 < judge6) //if judge 2 is the min
+  else if (judge2 < judge1 && judge2 < judge3 && judge2 < judge4 && judge2 < judge5 && judge2 < judge6) //if judge 2 is the min
     min = judge2; //changes the value of min to judge2
-  else if (judge3 < judge1 && judge3 < judge2 && judge3 < judge4 && judge3 < 5 && judge3 < judge6) //if judge 3 is the min
+  else if (judge3 < judge1 && judge3 < judge2 && judge3 < judge4 && judge3 < judge5 && judge3 < judge6) //if judge 3 is the min
     min = judge3; //changes the value of min to judge3
   else if (judge4 < judge1 && judge4 < judge2 && judge4 < judge3 && judge4 < judge5 && judge4 < judge6) //if judge 4 is the min
     min = judge4; //changes the value of min to judge4
